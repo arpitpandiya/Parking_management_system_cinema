@@ -1,0 +1,36 @@
+{
+    "name": "DS_VehicleSQL",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "LS_Park_ASQL",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "AzureSqlTable",
+        "schema": [
+            {
+                "name": "vehicle_id",
+                "type": "int",
+                "precision": 10
+            },
+            {
+                "name": "vehicle_number",
+                "type": "varchar"
+            },
+            {
+                "name": "vehicle_type",
+                "type": "varchar"
+            },
+            {
+                "name": "customer_id",
+                "type": "int",
+                "precision": 10
+            }
+        ],
+        "typeProperties": {
+            "schema": "dbo",
+            "table": "Vehicle"
+        }
+    },
+    "type": "Microsoft.DataFactory/factories/datasets"
+}

@@ -1,0 +1,56 @@
+{
+    "name": "DS_ParkRecordSQL",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "LS_Park_ASQL",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "AzureSqlTable",
+        "schema": [
+            {
+                "name": "record_id",
+                "type": "int",
+                "precision": 10
+            },
+            {
+                "name": "vehicle_id",
+                "type": "int",
+                "precision": 10
+            },
+            {
+                "name": "slot_id",
+                "type": "int",
+                "precision": 10
+            },
+            {
+                "name": "movie_id",
+                "type": "int",
+                "precision": 10
+            },
+            {
+                "name": "entry_time",
+                "type": "datetime",
+                "precision": 23,
+                "scale": 3
+            },
+            {
+                "name": "exit_time",
+                "type": "datetime",
+                "precision": 23,
+                "scale": 3
+            },
+            {
+                "name": "parking_fee",
+                "type": "decimal",
+                "precision": 10,
+                "scale": 2
+            }
+        ],
+        "typeProperties": {
+            "schema": "dbo",
+            "table": "ParkingRecord"
+        }
+    },
+    "type": "Microsoft.DataFactory/factories/datasets"
+}

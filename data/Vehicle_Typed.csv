@@ -1,0 +1,151 @@
+vehicle_id,vehicle_number,vehicle_type,customer_id
+1,7HI99,2-wheeler,12
+2,BBY-380,2-wheeler,56
+3,IIX-5754,4-wheeler,29
+4,3YP U96,4-wheeler,12
+5,428-DPW,4-wheeler,12
+6,379-FWJY,4-wheeler,23
+7,52-T362,2-wheeler,31
+8,7TX 355,2-wheeler,18
+9,AXW-732,4-wheeler,86
+10,BLV 459,2-wheeler,40
+11,165SWD,4-wheeler,76
+12,Q31-JHH,4-wheeler,23
+13,81-05722,2-wheeler,73
+14,408-HBE,2-wheeler,62
+15,094071,4-wheeler,41
+16,6-K3457,2-wheeler,74
+17,RLN-775,4-wheeler,41
+18,155W0,4-wheeler,5
+19,3JRW311,2-wheeler,18
+20,JDE-1938,2-wheeler,45
+21,325 KHY,4-wheeler,78
+22,3WN26,4-wheeler,66
+23,7388,4-wheeler,67
+24,70TB3,4-wheeler,76
+25,KCA 4100,4-wheeler,97
+26,9VZ 100,4-wheeler,56
+27,603 LSO,2-wheeler,35
+28,155-YCBJ,2-wheeler,44
+29,WE2 7178,4-wheeler,42
+30,2-88057,4-wheeler,54
+31,9KPS 10,2-wheeler,58
+32,875 VCJ,2-wheeler,21
+33,3P 6551I,4-wheeler,28
+34,H66 6JD,4-wheeler,67
+35,LV3 6244,2-wheeler,89
+36,C86 7OE,4-wheeler,54
+37,9-41597G,2-wheeler,94
+38,1WC O77,2-wheeler,69
+39,QIN 9003,4-wheeler,49
+40,MVW 164,2-wheeler,52
+41,NLC1585,4-wheeler,60
+42,0-B9980,4-wheeler,46
+43,9206,2-wheeler,63
+44,562EOH,4-wheeler,4
+45,222 5XT,4-wheeler,37
+46,JF-9452,2-wheeler,9
+47,UP-0570,2-wheeler,5
+48,77-24395,4-wheeler,78
+49,965Q8,2-wheeler,7
+50,TFK-711,4-wheeler,78
+51,LFH 048,4-wheeler,11
+52,308 GBJ,2-wheeler,38
+53,797 3NP,2-wheeler,68
+54,979-FYV,4-wheeler,21
+55,LQ-0276,2-wheeler,23
+56,836-POX,2-wheeler,79
+57,TXA-6348,2-wheeler,29
+58,X54 2HA,2-wheeler,18
+59,313-UQD,2-wheeler,68
+60,83U A67,4-wheeler,39
+61,KHA-1221,4-wheeler,76
+62,HSU 575,4-wheeler,36
+63,EVJ3906,4-wheeler,33
+64,0O 8S4CTF,4-wheeler,65
+65,SAK-467,2-wheeler,35
+66,984 RMT,4-wheeler,55
+67,RRU-737,2-wheeler,71
+68,0P FB641,4-wheeler,26
+69,R76 2VH,4-wheeler,14
+70,184-OYDG,2-wheeler,40
+71,907L9,4-wheeler,78
+72,P47 0CT,2-wheeler,60
+73,572-IVS,2-wheeler,83
+74,MWP4627,4-wheeler,46
+75,29-4088D,4-wheeler,75
+76,A 381960,4-wheeler,59
+77,0-V7021,4-wheeler,55
+78,7VF82,2-wheeler,24
+79,234X,2-wheeler,78
+80,455 KOV,2-wheeler,85
+81,473 QEZ,2-wheeler,100
+82,1-V4678,4-wheeler,37
+83,XYJ 6140,2-wheeler,7
+84,434 KKB,4-wheeler,28
+85,JJ 1598,2-wheeler,73
+86,5-R1324,4-wheeler,71
+87,HHU 035,4-wheeler,39
+88,IDL0626,2-wheeler,65
+89,174 TVO,4-wheeler,8
+90,SZR8966,2-wheeler,70
+91,623NS,4-wheeler,77
+92,24-D876,4-wheeler,76
+93,9MH7433,2-wheeler,66
+94,7M 5149B,2-wheeler,49
+95,01-63586,4-wheeler,42
+96,ZJP-311,4-wheeler,28
+97,RNV8110,2-wheeler,21
+98,MPO 017,2-wheeler,18
+99,9UY 153,2-wheeler,89
+100,120-624,4-wheeler,45
+101,M89 6HR,4-wheeler,18
+102,129-YPEB,4-wheeler,20
+103,0DG 373,2-wheeler,94
+104,LKR-014,4-wheeler,72
+105,PQL 7654,4-wheeler,100
+106,8747,2-wheeler,80
+107,490 7CG,2-wheeler,13
+108,G63-EKF,4-wheeler,45
+109,GP2 J6T,4-wheeler,37
+110,ICI 834,4-wheeler,32
+111,596-428,4-wheeler,76
+112,GV 51817,2-wheeler,38
+113,42B MI7,2-wheeler,51
+114,5-D6455,2-wheeler,13
+115,57I K78,4-wheeler,29
+116,148 JK1,2-wheeler,100
+117,MPY-913,2-wheeler,82
+118,957-UHU,2-wheeler,60
+119,922-XDN,4-wheeler,50
+120,SWR 194,2-wheeler,10
+121,8Z693,4-wheeler,49
+122,MDY 007,2-wheeler,32
+123,1VEQ 35,2-wheeler,82
+124,54EH8,4-wheeler,91
+125,XUE-0353,2-wheeler,67
+126,792J,4-wheeler,39
+127,401D,4-wheeler,18
+128,6469,2-wheeler,77
+129,8NS 676,4-wheeler,60
+130,Q89 7AQ,4-wheeler,97
+131,455 1SI,2-wheeler,91
+132,557 OTX,2-wheeler,88
+133,057 FYI,2-wheeler,45
+134,VUS 672,4-wheeler,61
+135,9-Q3841,2-wheeler,68
+136,7GV M14,2-wheeler,86
+137,9WN 751,4-wheeler,59
+138,4W747,4-wheeler,13
+139,7W 37541,2-wheeler,24
+140,EMF 760,2-wheeler,40
+141,IFB 617,4-wheeler,12
+142,494 1XG,2-wheeler,86
+143,03OM774,4-wheeler,63
+144,540MAB,4-wheeler,31
+145,MLS 031,4-wheeler,19
+146,TO 3670,2-wheeler,13
+147,ZJS 3188,4-wheeler,42
+148,QCF-6789,2-wheeler,39
+149,6NZ H26,2-wheeler,45
+150,KEF8658,2-wheeler,9

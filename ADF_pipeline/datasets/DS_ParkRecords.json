@@ -1,0 +1,54 @@
+{
+    "name": "DS_ParkRecords",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "LS_ADLS",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "DelimitedText",
+        "typeProperties": {
+            "location": {
+                "type": "AzureBlobFSLocation",
+                "fileName": "ParkingRecord_Typed.csv",
+                "folderPath": "Parking_management_system/parking_records",
+                "fileSystem": "mycontainer"
+            },
+            "columnDelimiter": ",",
+            "escapeChar": "\\",
+            "firstRowAsHeader": true,
+            "quoteChar": "\""
+        },
+        "schema": [
+            {
+                "name": "record_id",
+                "type": "String"
+            },
+            {
+                "name": "vehicle_id",
+                "type": "String"
+            },
+            {
+                "name": "slot_id",
+                "type": "String"
+            },
+            {
+                "name": "movie_id",
+                "type": "String"
+            },
+            {
+                "name": "entry_time",
+                "type": "String"
+            },
+            {
+                "name": "exit_time",
+                "type": "String"
+            },
+            {
+                "name": "parking_fee",
+                "type": "String"
+            }
+        ]
+    },
+    "type": "Microsoft.DataFactory/factories/datasets"
+}

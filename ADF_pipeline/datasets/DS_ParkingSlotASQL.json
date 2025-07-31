@@ -1,0 +1,35 @@
+{
+    "name": "DS_ParkingSlotASQL",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "LS_Park_ASQL",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "AzureSqlTable",
+        "schema": [
+            {
+                "name": "slot_id",
+                "type": "int",
+                "precision": 10
+            },
+            {
+                "name": "slot_number",
+                "type": "varchar"
+            },
+            {
+                "name": "slot_type",
+                "type": "varchar"
+            },
+            {
+                "name": "is_available",
+                "type": "bit"
+            }
+        ],
+        "typeProperties": {
+            "schema": "dbo",
+            "table": "ParkingSlot"
+        }
+    },
+    "type": "Microsoft.DataFactory/factories/datasets"
+}

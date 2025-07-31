@@ -1,0 +1,42 @@
+{
+    "name": "DS_Vehicledata",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "LS_ADLS",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "DelimitedText",
+        "typeProperties": {
+            "location": {
+                "type": "AzureBlobFSLocation",
+                "fileName": "Vehicle_Typed.csv",
+                "folderPath": "Parking_management_system/vechicles",
+                "fileSystem": "mycontainer"
+            },
+            "columnDelimiter": ",",
+            "escapeChar": "\\",
+            "firstRowAsHeader": true,
+            "quoteChar": "\""
+        },
+        "schema": [
+            {
+                "name": "vehicle_id",
+                "type": "String"
+            },
+            {
+                "name": "vehicle_number",
+                "type": "String"
+            },
+            {
+                "name": "vehicle_type",
+                "type": "String"
+            },
+            {
+                "name": "customer_id",
+                "type": "String"
+            }
+        ]
+    },
+    "type": "Microsoft.DataFactory/factories/datasets"
+}

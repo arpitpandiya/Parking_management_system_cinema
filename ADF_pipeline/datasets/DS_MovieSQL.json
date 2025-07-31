@@ -1,0 +1,42 @@
+{
+    "name": "DS_MovieSQL",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "LS_Park_ASQL",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "AzureSqlTable",
+        "schema": [
+            {
+                "name": "movie_id",
+                "type": "int",
+                "precision": 10
+            },
+            {
+                "name": "title",
+                "type": "varchar"
+            },
+            {
+                "name": "genre",
+                "type": "varchar"
+            },
+            {
+                "name": "duration",
+                "type": "int",
+                "precision": 10
+            },
+            {
+                "name": "show_time",
+                "type": "datetime",
+                "precision": 23,
+                "scale": 3
+            }
+        ],
+        "typeProperties": {
+            "schema": "dbo",
+            "table": "Movie"
+        }
+    },
+    "type": "Microsoft.DataFactory/factories/datasets"
+}

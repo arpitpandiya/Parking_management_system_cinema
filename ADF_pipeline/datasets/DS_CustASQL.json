@@ -1,0 +1,35 @@
+{
+    "name": "DS_CustASQL",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "LS_Park_ASQL",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "AzureSqlTable",
+        "schema": [
+            {
+                "name": "customer_id",
+                "type": "int",
+                "precision": 10
+            },
+            {
+                "name": "name",
+                "type": "varchar"
+            },
+            {
+                "name": "mobile",
+                "type": "varchar"
+            },
+            {
+                "name": "email",
+                "type": "varchar"
+            }
+        ],
+        "typeProperties": {
+            "schema": "dbo",
+            "table": "Customer"
+        }
+    },
+    "type": "Microsoft.DataFactory/factories/datasets"
+}
